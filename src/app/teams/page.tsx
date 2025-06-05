@@ -3,6 +3,7 @@ import { TeamProfile } from '@/types/profile';
 import Image from 'next/image';
 import Link from 'next/link';
 import { TrophyIcon, UserGroupIcon, ChartBarIcon, GlobeAltIcon, FireIcon } from '@heroicons/react/24/outline';
+import Navigation from '@/components/Navigation';
 
 // This would typically come from your API or database
 const MOCK_TEAMS: TeamProfile[] = [
@@ -53,6 +54,8 @@ export const metadata = {
 export default function TeamsPage() {
   return (
     <div className="min-h-screen bg-gray-50">
+      <Navigation />
+      
       {/* Hero Section with Featured Teams */}
       <div className="bg-gradient-to-r from-primary/90 to-primary text-white">
         <div className="container mx-auto px-4 py-16">
