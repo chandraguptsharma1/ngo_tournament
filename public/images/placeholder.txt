@@ -1,0 +1,12 @@
+This directory contains placeholder images for the NGO Tournament website.
+
+Required images:
+- logo.png
+- hero-bg.jpg
+- players/player1.jpg
+- players/player2.jpg
+- players/player3.jpg
+- events/summer-cup.jpg
+- events/league-finals.jpg
+
+Please replace these placeholder images with actual images for production use. 
